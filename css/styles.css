@@ -925,9 +925,9 @@
         height: 11px;
         fill: #000;
         border: #ffffff;
-        position: absolute;
+        /* position: absolute;
         top: 3%;
-        right: 17px;
+        right: 17px; */
         /* display: flex;
         align-items: center;
         justify-content: center; */
