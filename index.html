@@ -57,31 +57,18 @@
 
 <main>
     <section class="section-heading">
-        <div class="container parent background item-header">
-            <h1 class="parent">
-                EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+        <div class="container background section1">
+            <h1 class="text-index">
+                EFEKTYWNE ROZWIĄZANIA 
+                DLA WASZEGO BIZNESU
             </h1>
                 <div class="index-button-flex">
-                    <button 
-                        class="index-button" 
-                        type="button">Zamów usługę</button>
+                    <button class="index-button" type="button" data-modal-open>
+                        Zamów usługę
+                    </button>
                 </div>
             </div>
         </section>
-
-
-        <!-- <section class="section1 background-section-h1">
-            <div class="container">
-                <div class="item title-section">
-                    <h1 class="text-index">
-                        EFEKTYWNE ROZWIĄZANIA
-                        DLA WASZEGO BIZNESU</h1>
-                </div>
-                <div class="item title-section">
-                    <button class="index-button" type="button">Zamów usługę</button>
-                </div>
-            </div>
-        </section> -->
 
 
         <section class="section">
@@ -137,15 +124,18 @@
         <section class="">
             <div class="container flex-column-main">
                 <h2 class="text-index3">Czym się zajmujemy</h2>
-                <ul class="list item container-margin space-between">
+                <ul class="list item container-margin space-between img-whatwedo">
                     <li class="item2">
                         <img src="images/img1.jpg" alt="img1" width="370" height="294"/>
+                        <p class="profession">Aplikacje komputerowe</p>
                     </li>
                     <li>
                         <img src="images/img2.jpg" alt="img2" width="370" height="294" class="img-margin"/>
+                        <p class="profession">Aplikacje mobilne</p>
                     </li>
                     <li>
                         <img src="images/img3.jpg" alt="img3" width="370" height="294" class="img-margin"/>
+                        <p class="profession">Rozwiązania graficzne</p>
                     </li>
                 </ul>
             </div>
@@ -156,7 +146,7 @@
                 <h2 class="text-index4">Nasz zespół</h2>
                 <ul class="list item container-margin">
                     <li>
-                        <figure class="team-background item1">
+                        <figure class="team-background">
                             <img src="images/img4.jpg" alt="John Doe Product Designer" width="270" height="260"/>
                             <figcaption>
                                 <h3 class="text-index5">John Doe</h3> 
@@ -381,6 +371,14 @@
             </ul>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close></button> 
+            <svg class="close-btn close-icon">
+                <use href="./images/symbol-defs.svg#icon-Vector"></use>
+            </svg>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
 </body>
 
