@@ -365,6 +365,7 @@
     *::before,
     *::after {
         box-sizing: border-box;
+        width: 100%;
     }
  
 
@@ -423,13 +424,14 @@
 
     .page-header1 {
         display: flex;
-        align-items:flex-start;
+        align-items: flex-start;
         margin-left: 93px;
     }
 
 
     .page-header2 {
         display: flex;
+        justify-content: center;
         align-items: center;
         margin-left: 46px;
         position: relative;
@@ -437,6 +439,8 @@
 
 
     .page-header3 {
+        display: flex;
+        justify-content: flex-start;
         align-items: center;
         margin-left: 364px;
     }
@@ -777,6 +781,11 @@
     }
 
 
+    .underline-active>li {
+        position: relative;
+    }
+
+
     .description {
         font-size: 18px;
         line-height: 28px;
@@ -934,3 +943,5 @@
         justify-content: center; */
         /* object-fit: contain; */
     }
+
+
