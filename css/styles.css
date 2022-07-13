@@ -987,3 +987,16 @@
 
 
 
+.overflow-portfolio {
+    overflow: hidden;
+    position: relative;
+}
+
+.card-portfolio {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
